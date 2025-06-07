@@ -1,6 +1,6 @@
 # 🔥 WPMHook_x64/x86 - The Silent Payload Snatcher 🔥
 
-> *"Get that motha' fucka'"*  
+> *"Get that motha' fucka' - some kitty0706 video"*  
 
 ## 📖 **About**  
 This is a lean, mean DLL designed to **intercept and dump payloads** mid-injection using `WriteProcessMemory` hooks.  
