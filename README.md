@@ -1,8 +1,6 @@
 # 🔥 WPMHook_x64/x86 - The Silent Payload Snatcher 🔥
 
-> *"Catch 'em all—before they even know they've been caught."*  
-
-![Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxgBH_KpHkROPMmtaaelFAKIb8dXdWxCXAA&s) 
+> *"Get that motha' fucka'"*  
 
 ---
 
@@ -65,7 +63,8 @@ nSize: 0x400
 Buffer dumped to dump_0.bin  
 Dump Size: 0x400  
 Buffer Content (Hex): 4D 5A 90 00 03 00 00 00...  
-===============================  
+===============================
+``` 
 ⚠ Disclaimer
 For legal/educational use only.
 Don’t be a skid. Don’t steal shit. Don’t blame me if you break something.
