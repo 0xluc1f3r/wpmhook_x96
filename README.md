@@ -40,7 +40,7 @@ Built for **reverse engineers**, **malware analysts**, and **curious coders** wh
    - Build for **x64** or **x86** (depending on the injector’s bitness).  
    - Output: `wpmhook_x64.dll` or `wpmhook_x86.dll`.  
 
-2. **Inject it** into the **injector process** (not the target!).  
+2. **Inject it** into the **injector process**.  
    - Use your favorite injector (`Process Hacker`, manual mapping, etc.).  
 
 3. **Let the injector run**—it’ll dump every `WriteProcessMemory` call.  
