@@ -2,8 +2,6 @@
 
 > *"Get that motha' fucka'"*  
 
----
-
 ## 📖 **About**  
 This is a lean, mean DLL designed to **intercept and dump payloads** mid-injection using `WriteProcessMemory` hooks.  
 
@@ -16,7 +14,7 @@ Built for **reverse engineers**, **malware analysts**, and **curious coders** wh
 ---
 
 ## 🛠 **How It Works**  
-- Injects `wpmhook_x64.dll` (or `wpmhook_x86.dll`) into the **injector process** (not the target).  
+- Injects `wpmhook_x64.dll` (or `wpmhook_x86.dll`) into the **injector process**.  
 - Hooks `WriteProcessMemory` and **logs every buffer** written into another process.  
 - Dumps **raw binary payloads** (`dump_0.bin`, `dump_1.bin`, etc.) to disk.  
 - Writes a **detailed log** (`WriteProcessMemoryLog.txt`) with:  
@@ -64,7 +62,10 @@ Buffer dumped to dump_0.bin
 Dump Size: 0x400  
 Buffer Content (Hex): 4D 5A 90 00 03 00 00 00...  
 ===============================
-``` 
+```
+
+---
+
 ⚠ Disclaimer
 For legal/educational use only.
 Don’t be a skid. Don’t steal shit. Don’t blame me if you break something.
