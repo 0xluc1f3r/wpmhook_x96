@@ -14,7 +14,7 @@ Built for **reverse engineers**, **malware analysts**, and **curious coders** wh
 ---
 
 ## 🛠 **How It Works**  
-- Injects `wpmhook_x64.dll` (or `wpmhook_x86.dll`) into the **injector process**.  
+- Inject `wpmhook_x64.dll` (or `wpmhook_x86.dll`) into the **injector process**.  
 - Hooks `WriteProcessMemory` and **logs every buffer** written into another process.  
 - Dumps **raw binary payloads** (`dump_0.bin`, `dump_1.bin`, etc.) to disk.  
 - Writes a **detailed log** (`WriteProcessMemoryLog.txt`) with:  
